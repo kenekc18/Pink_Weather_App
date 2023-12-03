@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+    </style>      
+    <title>New Weather App</title>
+</head>
+<body>
+  <div class="weather-app">
+    <div class="search-box">
+      <input type="text" class="search" placeholder="Enter a city name">  
+      <button>
+        <img src="./images/search.png">
+      </button>
+    </div>
+
+    <div class="main-weather">
+      <img src="./images/clouds.png" alt="" class="weather-icon">
+      <div class="main-weather-txt">
+        <h2 class="temprature">15°C</h2>
+        <h3 class="city-name">Texas</h3>
+      </div>
+      <div class="weather-deets">
+        <div class="col">
+          <img src="./images/humidity.png" alt="">
+          <div class="col-txt">
+            <p class="humidity0">64%</p>
+            <p>Humidity</p>
+          </div>
+        </div>
+        <div class="col">
+          <img src="./images/wind.png" alt="">
+          <div class="col-txt">
+            <p class="wind0">3kmh</p>
+            <p>Wind Speed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
